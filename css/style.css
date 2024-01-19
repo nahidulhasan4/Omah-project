@@ -29,10 +29,12 @@
     font-weight: 300;
 
 }
+
 /* ===============here ster Benner design========= */
 
-.Benner{
+#Benner{
     background-color: #EEEDDE;
+   
 }
 .Benner-box{
     display: flex;
@@ -40,6 +42,10 @@
 }
 .Benner-box.Benner-img{
   background-size: cover;
+}
+.Benner-text{
+  padding-top: 165px;
+  padding-bottom: 195px;
 }
 .Benner-box .Benner-text .Benner-heading{
 color: #203239;
@@ -59,3 +65,39 @@ line-height: 30px;
 width: 70%;
 margin-bottom: 58px;
 }
+#Benner .Benner-input{
+width: 508px;
+height: 70px;
+border-radius: 15px;
+border: none;
+padding-left: 56px;
+}
+#Benner .Benner-box .Benner_input-box{
+  position: relative;
+}
+.Benner-box .Benner-input::placeholder{
+  color: #203239;
+  font-size: 16px;
+
+}
+.Benner_input-box .location{
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  
+}
+.Benner_input-box{
+  display: inline-block;
+}
+#Benner .Benner-searchBtn{
+  border: none;
+  padding: 23px 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  font-size: 16px;
+  margin-left: 15px;
+
+}
+
