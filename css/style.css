@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 .container{
     width: 1166px;
@@ -123,8 +124,10 @@ padding-left: 56px;
   border-radius: 10px;
   border: 1px solid #EEEDDE;
   padding: 20px 32px 24px 33px;
+  transition: 0.3s;
+}
+#properti .properti_card:hover{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  position: relative;
 }
 #properti .Properti_card_title{
   color: #203239;
@@ -132,17 +135,17 @@ padding-left: 56px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  /* position: relative; */
+  position: relative;
 }
-#properti .Properti_card_title::before{
+#properti .Properti_card_title::after{
   content: "";
   width: 8px;
   height: 30px;
   border-radius: 6px;
   background: #FF7527;
   position: absolute;
-  top: 30;
-  left: 30;
+  top: 0;
+  left: -30px;
 
 
 }
@@ -165,3 +168,103 @@ padding-left: 56px;
   padding-right: 8px;
 }
 /* ==============here end the propeti section ============== */
+/* ==============here stert the pilikhan section ============== */
+#pilikhan{
+  background-color: #EEEDDE;
+  padding-top: 68px;
+}
+#pilikhan .pilikhan_heading{
+  color: #203239;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 64px;
+}
+#pilikhan .pilikhan_sub-title{
+color: #FF7527;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+#pilikhan .pilikhan_box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#pilikhan .pilikhan_imag{
+  position: relative;
+  margin-bottom: 163px;
+  width: 50%;
+}
+#pilikhan .pilihan_img1{
+ 
+}
+#pilikhan .pilihan_img2 {
+  position: absolute;
+  top: 60px;
+  left: 167px;
+}
+
+#pilikhan .pilikhan_textBox{
+ width: 50%;
+}
+#pilikhan .pilikkhan_text-title{
+  color: #203239;
+  font-size: 36px;
+  font-weight: 600;
+  width: 507px;
+  line-height: 150%;
+}
+#pilikhan .pilikhan_text_info{
+  color: #203239;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 24px;
+  line-height: 30px;
+  width: 570px;
+  margin: 13px 12px 13px 24px;
+
+}
+#pilikhan .pilikhan_call{
+padding: 13px 41px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+color: #203239;
+font-size: 16px;
+background-color: #EEEDDE;
+font-weight: 600;
+transition: 0.4s;
+}
+#pilikhan .pilikhan_call:hover{
+  background-color: #203239;
+  color: #EEEDDE;
+}
+
+#pilikhan .pilikhan_call .fa-phone{
+  margin-right: 8px;
+}
+#pilikhan .pilikhan-btnbox{
+  margin-top: 48px;
+  display: flex;
+  gap: 48px;
+}
+#pilikhan .pilikhan_explore{
+  padding: 13px 41px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  background-color:#203239  ;
+  transition: 0.4s;
+}
+#pilikhan .pilikhan_explore:hover{
+  background-color: #EEEDDE;
+  color: #203239;
+}
+/* ==============here end the pilikhan section ============== */
