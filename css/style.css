@@ -268,3 +268,133 @@ transition: 0.4s;
   color: #203239;
 }
 /* ==============here end the pilikhan section ============== */
+/* ==============here stert the residen section ============== */
+#residen{
+  margin: 80px 0px ;
+}
+#residen .residen_heading{
+  color: #203239;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 64px;
+}
+#residen .residen_sub-title{
+color: #FF7527;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+#residen .residen_cardBox{
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+}
+#residen .residen_cardTitle{
+color: #203239;
+font-size: 24px;
+font-weight: 500;
+line-height: 150%;
+width: 262px;
+}
+#residen .residen_cardInfo{
+width: 356px;
+color: #203239;
+font-size: 16px;
+font-weight: 300;
+line-height: 30px;
+}
+/* ==============here end the residen section ============== */
+#contact{
+ padding: 48px 0px;
+ background-color: #EEEDDE;
+}
+#contact .contact_box{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+#contact .call_contact_title{
+color: #203239;
+font-size: 36px;
+font-weight: 600;
+line-height: 150%;
+margin-bottom: 74px;
+}
+#contact .call_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+#contact .call_box1{
+  background-color: #fff;
+  width: 274px;
+  height: 167px;
+  border-radius: 10px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+
+}
+#contact .call-nowBtn{
+  width: 108px;
+  height: 44px;
+  border-radius: 5px;
+  background: #203239;
+  color: #EEEDDE;
+}
+#contact .call_title{
+  width: 33px;
+  color: #203239;
+font-size: 16px;
+font-weight: 500;
+}
+#contact .call_number{
+  width: 135px;
+  color: #203239;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 15px;
+margin-top: 8px;
+}
+#contact .call_phone{
+width: 34px;
+height: 33px;
+font-size: 30px;
+}
+#contact .contact_bennerTitle{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #203239;
+  margin-bottom: 69px;
+}
+#contact .contact_bennerImg{
+  width: 156px;
+  height: 104px;
+}
+/* ==============here end the residen section ============== */
+#footer{
+  background-color: #203239;
+
+}
+#footer .footer_box{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+#footer .footer_logo{
+
+}
+#footer .footer_iconBox{
+
+}
+#footer .footer_icon{
+  color: #EEEDDE;
+  margin-left: 64px;
+}
